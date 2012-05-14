@@ -18,10 +18,11 @@ name: Template-Plugin-LanguageName
 provides:
   Template::Plugin::LanguageName:
     file: lib/Template/Plugin/LanguageName.pm
-    version: 0.01
+    version: 0.0101
 requires:
   Locale::Codes::Language: 3.18
   Template: 2.22
+  parent: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+version: 0.0101

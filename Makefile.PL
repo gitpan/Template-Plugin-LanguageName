@@ -9,7 +9,8 @@ WriteMakefile
                    'Software::License' => 0,
                    'Template' => '2.22',
                    'Test::Exception' => 0,
-                   'Test::More' => 0
+                   'Test::More' => 0,
+                   'parent' => 0
                  },
   'INSTALLDIRS' => 'site',
   'EXE_FILES' => [],

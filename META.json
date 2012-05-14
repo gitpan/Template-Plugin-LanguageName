@@ -29,14 +29,15 @@
       "runtime" : {
          "requires" : {
             "Locale::Codes::Language" : "3.18",
-            "Template" : "2.22"
+            "Template" : "2.22",
+            "parent" : "0"
          }
       }
    },
    "provides" : {
       "Template::Plugin::LanguageName" : {
          "file" : "lib/Template/Plugin/LanguageName.pm",
-         "version" : "0.01"
+         "version" : "0.0101"
       }
    },
    "release_status" : "stable",
@@ -45,5 +46,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.01"
+   "version" : "0.0101"
 }
